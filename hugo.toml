@@ -16,3 +16,16 @@ publishDir = "docs"
     name = "Guías"
     url = "/guias/"
     weight = 2
+
+[params]
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  ShowFullTextinRSS = true
+  ShowToc = true
+  homeInfoParams = { Title = "¡Bienvenido a mi blog!", Content = "Ideas, lecturas y cultura para mentes curiosas." }
+
+  # Mostrar el post destacado
+  ShowFeaturedPost = true
