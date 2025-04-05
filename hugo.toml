@@ -3,3 +3,16 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "PaperMod"
 publishDir = "docs"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "Sobre"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "guias"
+    name = "Guías"
+    url = "/guias/"
+    weight = 2
