@@ -1,0 +1,25 @@
+baseURL = "https://dissentra.github.io/blog/"
+languageCode = "es-cl"
+title = "Dissentra"
+theme = "PaperMod"
+paginate = 10
+defaultContentLanguage = "es"
+
+[params]
+  env = "production"
+  description = "Un blog audaz, minimalista y profesional"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  homeInfoParams = { Title = "Dissentra", Content = "Un blog para reexaminar lo incuestionable" }
+
+[[menu.main]]
+  name = "Inicio"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
